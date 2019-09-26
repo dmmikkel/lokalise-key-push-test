@@ -19,8 +19,4 @@ jobs:
         directory: '.'
         file-extension: json
         key-name-property: web
-        platforms:
-          - ios
-          - android
-          - web
-          - other
+        platforms: ios android web other
