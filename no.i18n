@@ -3,5 +3,8 @@
     "male": "Mann",
     "female": "Kvinne",
     "day": "Dagg"
+  },
+  "ole": {
+    "aasen": "kul"
   }
 }
