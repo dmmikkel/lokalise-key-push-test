@@ -1,6 +1,7 @@
 {
   "general": {
     "male": "Mann",
-    "female": "Kvinne"
+    "female": "Kvinne",
+    "isnew": "yep"
   }
 }
