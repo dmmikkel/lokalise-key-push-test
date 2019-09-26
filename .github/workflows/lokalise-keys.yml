@@ -1,4 +1,4 @@
-name: Lokalise Key Push
+name: LokaliseKeyPush
 
 on:
   push:
@@ -13,9 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: dmmikkel/lokalise-key-push@master
-      with:
-        api-token: 9e66b0b78f18009e03288bf36a9c6af1a0062619
-        project-id: 748610715d8afa5681a4b1.23888602
-        glob-pattern: **/*.i18n
-        format: json
-        
+        with:
+          api-token: 9e66b0b78f18009e03288bf36a9c6af1a0062619
+          project-id: 748610715d8afa5681a4b1.23888602
+          glob-pattern: **/*.i18n
+          format: json
