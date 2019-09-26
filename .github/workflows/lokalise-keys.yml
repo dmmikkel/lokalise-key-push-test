@@ -1,0 +1,15 @@
+name: Lokalise Key Push
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+     - '*.i18n'
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: dmmikkel/lokalise-key-push@master
