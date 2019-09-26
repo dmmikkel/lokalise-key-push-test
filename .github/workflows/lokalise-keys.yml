@@ -17,6 +17,6 @@ jobs:
         api-token: ${{ secrets.lokalise_token }}
         project-id: 748610715d8afa5681a4b1.23888602
         directory: '.'
-        file-extension: json
+        file-extension: i18n
         key-name-property: web
         platforms: ios android web other
